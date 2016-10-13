@@ -1,8 +1,23 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #080808;
 }
 
 a {
-  color: #00B7FF;
+  color: #000000;
+}
+
+div.container
+{
+  width: 300px;
+  border: 25px solid green;
+  padding: 25px;
+  margin: 25px;
+}
+.navbar-change {
+  background-color: #4cae4c;
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
 }

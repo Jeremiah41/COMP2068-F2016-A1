@@ -3,32 +3,28 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Home' });
 });
 
-router.get('/home', function(req, res, next)
-{
 
+router.get('/contact', function(req, res, next)
+{
+  res.render('contact', { title: 'Contact Information' });
 });
 
-router.get('/ContactMe', function(req, res, next)
+router.get('/about', function(req, res, next)
 {
-
+  res.render('about', { title: 'About Me' });
 });
 
-router.get('/aboutMe', function(req, res, next)
+router.get('/project', function(req, res, next)
 {
-
+  res.render('project', { title: 'My Projects' });
 });
 
-router.get('/projectPage', function(req, res, next)
+router.get('/service', function(req, res, next)
 {
-
-});
-
-router.get('/servicePage', function(req, res, next)
-{
-
+  res.render('service', { title: 'Service Page' });
 });
 
 
